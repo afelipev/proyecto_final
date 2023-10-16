@@ -1,0 +1,103 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#menu {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#idMenu {
+    display: inline;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}
+
+.content {
+    margin-top: 56px;
+    position: fixed;
+    width: 95.5%;
+    height: 88%;
+    overflow-y: scroll;
+}
+
+.scroll-content {
+    margin-top: 56px;
+    width: 95.5%;
+    height: 90%;
+    overflow: hidden;
+    position: fixed;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.scroll-content::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Estilo para el encabezado (h1) */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilos para los contenedores de secciones (div) */
+div {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilos para los subtítulos (h3) */
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Estilos para los párrafos (p) */
+p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Estilo para la imagen */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para la lista de bibliografías */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
