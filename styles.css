@@ -121,4 +121,15 @@ ul {
   
 .slide:first-child {
     display: block;
+}
+
+.columnas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espaciado entre columnas */
+}
+  
+.columna {
+    width: 20%; /* Para dejar espacio entre las columnas */
+    margin-bottom: 10px; /* Espaciado entre grupos de p */
 }  
