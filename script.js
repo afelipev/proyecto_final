@@ -8,4 +8,4 @@ function nextSlide() {
   slides[currentSlide].style.display = 'block';
 }
 
-setInterval(nextSlide, 3000); // Cambia de diapositiva cada 3 segundos (3000 ms)
+setInterval(nextSlide, 3000);

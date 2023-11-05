@@ -29,13 +29,13 @@ nav {
     margin: 0 20px;
 }
 
-a {
+.menuItem {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
 }
 
-a:hover {
+.menuItem:hover {
     border-bottom: 1px solid white;
 }
 
@@ -126,10 +126,10 @@ ul {
 .columnas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Espaciado entre columnas */
+    justify-content: space-between;
 }
   
 .columna {
-    width: 20%; /* Para dejar espacio entre las columnas */
-    margin-bottom: 10px; /* Espaciado entre grupos de p */
-}  
+    width: 20%;
+    margin-bottom: 10px;
+}
